@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Address Autocomplete and Validation</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+  <style>
+    #autocomplete {
+      width: 270px;
+      padding: 10px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <input id="autocomplete" placeholder="Enter your address" type="text"></input>
+  </div>
+  <div id="address-validation-result"></div>
+  <script src="app.js"></script>
+</body>
+</html>
